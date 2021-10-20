@@ -1,0 +1,51 @@
+#skills{
+    /* background-color: #FFFFFF; */
+}
+progress {
+    border: 0;
+    height: 10px;
+    width: 150px;
+    color: lightblue;
+    border-radius: 20px;
+
+}
+progress::-webkit-progress-bar {
+    border: 0;
+    height: 10px;
+    border-radius: 20px;
+    background: #eef;
+}
+progress::-webkit-progress-value {
+    border: 0;
+    height: 10px;
+    border-radius: 20px;
+    background: lightblue;
+}
+progress::-moz-progress-bar {
+    border: 0;
+    height: 10px;
+    border-radius: 20px;
+    background: lightblue;
+}
+.bar-container{
+    float: right;
+    padding-right: 10px;
+}
+.skill{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border-bottom: .1px solid grey; */
+
+}
+.skill:hover{
+    background-color: #eee;
+}
+#skills-bottom{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.abilities-sub{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;
+}

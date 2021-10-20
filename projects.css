@@ -1,0 +1,57 @@
+
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 250px;
+    max-width: 95vw;
+    /* float: center; */
+    display: inline-block;
+    background-color: #eef;
+}
+
+.card-container{
+    text-align: center;
+}
+
+
+/* transition effect for text hover */
+
+/* quick reset */
+* {
+    margin-top: 50px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* relevant styles */
+.img__wrap {
+    position: relative;
+    height: 200px;
+    width: 257px;
+}
+
+.img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* left: 0; */
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+
+/* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+
+#projects-bottom{
+    padding-bottom: 30px;
+}

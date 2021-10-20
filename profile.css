@@ -1,0 +1,47 @@
+#about-me{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    /* background-color: #FFFFFF; */
+    
+    /* padding-left: 20vw;
+    padding-right: 20vw; */
+}
+.section-container{
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+.about{
+    color: #FF8000;
+}
+#about-me-text{
+    text-align: center;
+    /* padding-left: 70px;
+    padding-right:70px; 
+    margin-left: 150px; */
+}
+.bottom{
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.custom-header{
+    padding-top: 65px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 349;
+    /* color: #27835F; */
+    /* color: #C7E8A2; */
+    border-bottom: 1px solid grey;
+
+}
+.header-color{
+    color: black;
+}
+.custom-sub-header{
+    /* color: #27835F; */
+    /* color: #C7E8A2; */
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+p{
+    font-weight: 300;
+}
