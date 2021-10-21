@@ -96,48 +96,70 @@ body {
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
-    }
+}
 
-    .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    }
+.right {
+transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
 
-    .left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-    }
+.left {
+transform: rotate(135deg);
+-webkit-transform: rotate(135deg);
+}
 
-    .up {
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-    }
+.up {
+transform: rotate(-135deg);
+-webkit-transform: rotate(-135deg);
+}
 
-    .down {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-    }
-    #down-arrow{
-        font-size: 60px;
-        color: white;
-        position: absolute; 
-        bottom: 0;
-        /* background-color: blue; */
-        /* display:table; */
-        margin:0 auto;
-        /* display: inline-block; */
-        vertical-align:middle;
-        animation: arrow-movement 5s ease 0s infinite normal forwards;
-    }
-    #arrow-container{
-        color:white;
-        /* text-align: center; */
-        /* background-color: white */
-    }
-    
-    #name{
-        border-bottom: 3px solid #DAF7DA;
-    }
-    #interactive-resume{
-        text-align: right;
-    }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+#down-arrow{
+    font-size: 60px;    
+    color: white;
+    position: absolute; 
+    bottom: 0;
+    /* background-color: blue; */
+    /* display:table; */
+    margin:0 auto;
+    /* display: inline-block; */
+    vertical-align:middle;
+    animation: arrow-movement 5s ease 0s infinite normal forwards;
+}
+#arrow-container{
+    color:white;
+/* text-align: center; */
+/* background-color: white */
+}
+
+#name{
+    border-bottom: 3px solid #DAF7DA;
+}
+#interactive-resume{
+    text-align: right;
+}
+
+.custom-header{
+    padding-top: 65px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 349;
+    /* color: #27835F; */
+    /* color: #C7E8A2; */
+    border-bottom: 1px solid grey;
+
+}
+.custom-sub-header{
+    /* color: #27835F; */
+    /* color: #C7E8A2; */
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.custom-sub2-header{
+    font-size: 20px;
+}
