@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="index.css">
@@ -90,17 +96,19 @@
                         Description
                     </div>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Hi, welcome to my interactive resume. I'm a software engineer with experience in both front and back end. I have many interests, but many of them boil down to problem solving. My ideal job would involve solving problems that touch many people. See the bottom for my contact info.
                     </p>
                     </div>
                 <div class="col-lg-4">
-                    <img id="pfp" src="https://media-exp1.licdn.com/dms/image/C4E03AQE3qiWg92srBg/profile-displayphoto-shrink_800_800/0/1632772490774?e=1639008000&v=beta&t=mY0Jvh6JdNpFrXwwIssXQK21E7_R_2Uq1qjae6DSHuI" alt="my picture">
+                    <img id="pfp" src="https://i.imgur.com/P8wSJCV.jpg" alt="my picture">
                     <div class="custom-sub-header header-color">
                         Interests
                     </div>
                     <div>
                         <ul>
                             <li><p>Website Development</p></li>
+                            <li><p>Algorithms</p></li>
+                            <li><p>Nature</p></li>
                             <li><p>Securities Trading</p></li>
 
                         </ul>
@@ -137,7 +145,7 @@
 
     <!-- Background section -->
 
-    <div id="background" class="section-container secondary-background-color">
+    <div id="background " class="section-container secondary-background-color">
 
         <div id="about-me-text" class="container">
             <!-- <div class="row"> -->
@@ -154,43 +162,53 @@
                     Jobs & Internships
                 </div>
                 <div class="row job">
-                    <div class="col-md-5">
-                            <b>Student Technology Coordinator</b>
+                    <div class="col-md-5 animate__slideInLeft">
+                            <b>LinkedIn</b>
                         <div>April 2021 - Present</div>
                     </div>
                     <div class="col-md-7">
-                    <div><b>Part-time Job </b></div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    <div><b>Software Engineer Intern</b></div>
+                        During my time here, I was a part of the Seeker Growth and Experiences team where I learned best practices in agile development. My primary project involved optimizing the efficiency and helping reach long-term efficiency goals of the jobs details page through the API. After finishing this project, I completed five other tasks involving adding features and high-priority bug fixes.
+                    </div>
+                </div>
+                <div class="row job">
+                    <div class="col-md-5 animate__slideInLeft">
+                            <b>Washington University in St. Louis</b>
+                        <div>April 2021 - Present</div>
+                    </div>
+                    <div class="col-md-7">
+                    <div><b>Student Technology Coordinator</b></div>
+                        As a student technology coordinator, I helped gave year-round assistance to the students (~170) in my residential college. These services included hardware diagnosis and repair, printer maintenance, and software troubleshooting.
                     </div>
                 </div>
                 <div class="row job">
                     <div class="col-md-5">
-                            <b>Level I Depot Technician</b>
+                            <b>Washington University in St. Louis</b>
                         <div>May 2021 - August 2021</div>
                     </div>
                     <div class="col-md-7">
-                    <div><b>Part-time Job </b></div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    <div><b>Level I Depot Technician</b></div>
+                        As a depot technician, I prepared hardware (computers, peripherals, computer accessories) for distribution to university staff and students. This experience taught me how to image computers, maintain and update issues on Service Now, and gave me an understanding of networks.
                     </div>
                 </div>
                 <div class="row job">
                     <div class="col-md-5">
-                            <b>Software Developer</b>
+                            <b>WeCare Stl</b>
                         <div>June 2021 - August 2021</div>
                     </div>
                     <div class="col-md-7">
-                    <div><b>Remote Internship</b></div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    <div><b>Software Developer Internship</b></div>
+                        WeCare is a start-up that gives health supplies to those in need. I made code for the front end of their website.
                     </div>
                 </div>
                 <div class="row job">
                     <div class="col-md-5">
-                            <b>Software Engineer & Geographic Information Systems Analyst</b>
+                            <b>Leidos</b>
                         <div>June 2021 - August 2021</div>
                     </div>
                     <div class="col-md-7">
-                    <div><b>Internship</b></div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    <div><b>Software Engineer & Geographic Information Systems Analyst Intern</b></div>
+                        I worked under a mentor on two different projects. The first involved producing a visual output based on the difference between (1) map data given to mariners and (2) the most up-to-date map data. The second involved gathering data from along the Syria-Jordan border to find indicators of tunneling.
                     </div>
                 </div>
                 <div class="custom-sub-header header-color">
@@ -203,7 +221,7 @@
                     </div>
                     <div class="col-md-7">
                     <div><b>Full-time University Student</b></div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        I have a major in computer science and a minor in psychological and brain sciences. 
                     </div>
                 </div>
                 <div class="row job">
@@ -213,7 +231,7 @@
                     </div>
                     <div class="col-md-7">
                     <div><b>Full-time High School Student</b></div>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    During my time in high school I was a part of the student council. I also annually contributed in a hack-a-thon hosted by Worldwide Technologies. One year our high school team won first place with a website to help middle schoolers find their high school of best fit.
                     </div>
                 </div>
             </div>
@@ -235,43 +253,43 @@
         </div>
         <div id="skills-bottom">
             <div class="custom-sub-header header-color">
-            Skills
+            Languages & Frameworks
             </div>
             <div class="row abilities-sub">
                 <div class="col-md-6">
                     <div class="skill">
-                        <span>Skill1</span>
+                        <span>Python</span>
                         <span class="bar-container"><progress id="file" max="100" value="100"> 100% </progress></span>
                     </div>
                     <div class="skill">
-                        <span>Skill2</span>
+                        <span>React.js</span>
                         <span class="bar-container"><progress id="file" max="100" value="100"> 100% </progress></span>
                     </div>
                     <div class="skill">
-                        <span>Skill3</span>
+                        <span>JavaScript</span>
                         <span class="bar-container"><progress id="file" max="100" value="100"> 100% </progress></span>
                     </div>
                     <div class="skill">
-                        <span>Skill4</span>
-                        <span class="bar-container"><progress id="file" max="100" value="100"> 100% </progress></span>
+                        <span>Java</span>
+                        <span class="bar-container"><progress id="file" max="100" value="90"> 100% </progress></span>
                     </div>
                 </div>
                 <div class="col-md-6">
                 <div class="skill">
-                        <span>Skill1</span>
+                        <span>Bash</span>
                         <span class="bar-container"><progress id="file" max="100" value="70"> 100% </progress></span>
                     </div>
                     <div class="skill">
-                        <span>Skill2</span>
+                        <span>SQL</span>
                         <span class="bar-container"><progress id="file" max="100" value="70"> 100% </progress></span>
                     </div>
                     <div class="skill">
-                        <span>Skill3</span>
+                        <span>PHP</span>
                         <span class="bar-container"><progress id="file" max="100" value="60"> 100% </progress></span>
                     </div>
                     <div class="skill">
-                        <span>Skill4</span>
-                        <span class="bar-container"><progress id="file" max="100" value="50"> 100% </progress></span>
+                        <span>Laravel</span>
+                        <span class="bar-container"><progress id="file" max="100" value="60"> 100% </progress></span>
                     </div>
                 </div>
             </div>
@@ -281,38 +299,38 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="skill">
-                        <span>Tool1</span>
+                        <span>GitHub</span>
                         <span class="bar-container"><progress id="file" max="100" value="100"> 100% </progress></span>
                     </div>
                     <div class="skill">
-                        <span>Tool2</span>
+                        <span>G-Suite</span>
                         <span class="bar-container"><progress id="file" max="100" value="100"> 100% </progress></span>
                     </div>
                     <div class="skill">
-                        <span>Tool3</span>
+                        <span>Jira</span>
                         <span class="bar-container"><progress id="file" max="100" value="100"> 100% </progress></span>
                     </div>
                     <div class="skill">
-                        <span>Tool4</span>
+                        <span>MongoDB</span>
                         <span class="bar-container"><progress id="file" max="100" value="100"> 100% </progress></span>
                     </div>
                 </div>
                 <div class="col-md-6">
                 <div class="skill">
-                        <span>Tool1</span>
-                        <span class="bar-container"><progress id="file" max="100" value="70"> 100% </progress></span>
+                        <span>Stack Overflow :)</span>
+                        <span class="bar-container"><progress id="file" max="100" value="100"> 100% </progress></span>
                     </div>
                     <div class="skill">
-                        <span>Tool2</span>
-                        <span class="bar-container"><progress id="file" max="100" value="70"> 100% </progress></span>
+                        <span>Service Now</span>
+                        <span class="bar-container"><progress id="file" max="100" value="95"> 100% </progress></span>
                     </div>
                     <div class="skill">
-                        <span>Tool3</span>
+                        <span>Microsoft Office</span>
                         <span class="bar-container"><progress id="file" max="100" value="60"> 100% </progress></span>
                     </div>
                     <div class="skill">
-                        <span>Tool4</span>
-                        <span class="bar-container"><progress id="file" max="100" value="50"> 100% </progress></span>
+                        <span>AWS</span>
+                        <span class="bar-container"><progress id="file" max="100" value="60"> 100% </progress></span>
                     </div>
                 </div>
             </div>
@@ -325,44 +343,56 @@
     <div class="section-container secondary-background-color">
             <div class="custom-header header-color">
                 Projects
+                <div class="header-subtext">
+                    (View in browser for best experience)
+                </div>
             </div>
+
             <div id="projects-bottom">
                 <div class="row">
                     <div class="col-lg-6 card-container">
                         <div class="custom-sub2-header project-description">
                             Tic-Tac-Toe AI
                         </div>
-                        <div class="card img__img">
-                        
-                        </div>
+                        <a href="https://shiba-ai.netlify.app/">
+                            <div class="card img__img" id="shiba">
+                            
+                            </div>
+                        </a>
                         <!-- <p class=" card">Description</p> -->
                     </div>
                     <div class="col-lg-6 card-container">
                         <div class="custom-sub2-header project-description">
-                            Sorting Visualizer
+                            End-2-End Messaging
                         </div>
-                        <div class="card img__img">
-                            
-                        </div>
+                        <a href="https://github.com/CPATRICK321/encrypted-messaging">
+                            <div class="card img__img" id="enc-messaging">
+                                
+                            </div>
+                        </a>
                         <!-- <p class="">Description</p> -->
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 card-container">
                         <div class="custom-sub2-header project-description">
-                            Todo List With Countdown
+                            NxN Terminal Gomoku
                         </div>
-                        <div class="card">
-                                
+                        <a href="https://github.com/CPATRICK321/nxnGomoku">
+                            <div class="card" id="gomoku">
+                                    
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     <div class="col-lg-6 card-container">
                         <div class="custom-sub2-header project-description">
-                            TBD
+                            Todo List With Countdown
                         </div>
-                    <div class="card">
+                        <a href="https://todo-countdown.netlify.app/">
+                            <div class="card" id="todos">
                             
-                        </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

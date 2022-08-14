@@ -9,6 +9,27 @@
     display: inline-block;
     margin: auto;
     background-color: #eef;
+    /* background-size: cover; */
+}
+
+#shiba{
+    background-size: 300px 250px;
+    background-image: url("https://i.imgur.com/Oh26sMF.png") !important;
+}
+
+#enc-messaging{
+    background-size: 300px 250px;
+    background-image: url("https://i.imgur.com/b5sc5b2.png");
+}
+
+#todos{
+    background-size: 300px 250px;
+    background-image: url("https://i.imgur.com/ZKEKjCJ.png");
+}
+
+#gomoku{
+    background-size: 300px 250px;
+    background-image: url("https://i.imgur.com/yHRM11n.png");
 }
 
 .card-container{
